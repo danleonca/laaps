@@ -1,0 +1,148 @@
+.svgCss{
+    position:absolute;
+    bottom:0%;
+    left:0;
+  }
+  .imgCss{
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+  }
+  .imgSt{
+    position:absolute;
+    top:20%;
+    width:150px;
+  }
+  .btns{
+   
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+  }
+  .logbtn{
+     position:absolute;
+    top:68%;
+    background: #B0D9FF;
+    border-radius: 27.5px;
+    border:0px;
+    width: 190px;
+    height: 38px;
+    padding: 10px 45px;
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+  }
+  .logbtn2{
+    position:absolute;
+   top:80%;
+   background: #B0D9FF;
+   border-radius: 27.5px;
+   border:0px;
+   width: 190px;
+   height: 38px;
+   padding: 10px 45px;
+   font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+ }
+  p{
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  
+  color: #FBFFFB;
+  
+  }
+  .prom{
+    position:absolute;
+    top:45%;
+    width:80%;
+  }
+  .pLog{
+        
+   position:absolute;
+    top:70%;
+  }
+  .btnsGyF{
+     position:absolute;
+    top:80%;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    width:40%;
+  }
+  .logGoo{
+    background:url(https://www.podologamirjamarco.com/wp-content/uploads/2017/12/google-icon-logo-F8DBA0521D-seeklogo.com_.png);
+    background-size:100%;
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    border:0;
+    
+  }
+  .logFa{
+      background:url(https://psicoeduca.es/wp-content/uploads/2020/04/18-183517_icone-facebook-redondo-png-png-download-icono-de-1.png);
+    background-size:110%;
+    height:40px;
+    width:40px;
+    background-position:center;
+    border-radius:50%;
+    border:0;
+  
+  }
+  
+  .lastEl{
+    position:absolute;
+    bottom:0%;
+    left:0%;
+    
+  }
+  
+  .logCar{
+    position:absolute;
+    top:25%;
+  }
+  
+  .backLog{
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    
+    left: 28px;
+    top: 50px;
+    
+  }
+  
+  .backDep{
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    width:100%;
+    top:20%;
+  }
+
+  .boxtwo{
+    height: 750px; width:100%; overflow: hidden;
+  }
+
+  .boxtree{
+    height: 100px; overflow: hidden;
+  }
+
+  .mini{
+    position: absolute;
+    top: 30%
+  }

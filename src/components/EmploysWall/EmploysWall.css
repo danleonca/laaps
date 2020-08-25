@@ -1,0 +1,84 @@
+.picture{
+    position: absolute;
+left: 29.17%;
+right: 28.89%;
+top: 13.12%;
+bottom: 63.28%;
+}
+
+.name{
+    position: absolute;
+left: 6.39%;
+right: 49.44%;
+top: 41.09%;
+bottom: 55.62%;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 18px;
+/* or 164% */
+
+display: flex;
+align-items: center;
+
+color: #405C7B;
+
+mix-blend-mode: multiply;
+}
+
+.rectangule{
+    position: absolute;
+left: 6.67%;
+right: 6.39%;
+top: 47.66%;
+bottom: 51.88%;
+
+background: #405C7B;
+mix-blend-mode: multiply;
+opacity: 0.7;
+}
+
+.realName{
+    position: absolute;
+left: 10.56%;
+right: 45.28%;
+top: 44.22%;
+bottom: 52.5%;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 18px;
+/* or 100% */
+
+display: flex;
+align-items: center;
+
+color: #405C7B;
+}
+
+
+.name2{
+    position: absolute;
+left: 16.94%;
+right: 12.5%;
+top: 52.5%;
+bottom: 42.66%;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+color: #405C7B;
+}
+
+.realName2{
+    
+}

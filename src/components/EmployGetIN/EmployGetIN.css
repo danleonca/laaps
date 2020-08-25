@@ -1,0 +1,22 @@
+.in-button{
+    
+padding: 10px 45px;
+
+position: absolute;
+left: 30.14%;
+right: 29.31%;
+top: 36.72%;
+bottom: 57.34%;
+
+border: 4px solid #B0D9FF;
+box-sizing: border-box;
+border-radius: 27.5px;
+}
+
+.img-flower{
+    position: absolute;
+    left: 50.62%;
+  
+    top: 71.88%;
+   
+}
