@@ -1,6 +1,7 @@
 import React from "react";
 import "./UserApp.css";
 import ondaperfil from "../../images/ondaperfil.svg";
+import { Link } from "react-router-dom"
 
 
   const UserApp = () => {
@@ -19,12 +20,14 @@ import ondaperfil from "../../images/ondaperfil.svg";
             
             
             <div className="btns">
-            <button class="choose" ><a style={{color:" #405C7B"}}><i className="fas fa-calendar-alt" style={{color:"#A4D8F4"}}></i>  Agendar</a></button>
+                <ul>
+            <Link to="/usuarios/agenda" ><button class="choose" ><a style={{color:" #405C7B"}}><i className="choose fas fa-calendar-alt" style={{color:"#A4D8F4"}}></i>  Agendar</a></button></Link>
                 <div className="sep"></div>
-            <button className="choose" style={{color:" #405C7B"}}><a style={{color:" #405C7B"}}><i className="fas fa-dollar-sign" style={{color:"#A4D8F4"}}></i>  Precios</a></button>
+                <Link to="/usuarios/precios"> <button className="choose" style={{color:" #405C7B"}}><a style={{color:" #405C7B"}}><i className="fas fa-dollar-sign" style={{color:"#A4D8F4"}}></i>  Precios</a></button></Link>
                 <div className="sep"></div>
-            <button className="choose" style={{color:" #405C7B"}}><a style={{color:" #405C7B"}}><i className="fas fa-list-ul" style={{color:"#A4D8F4"}}></i>  Servicios</a></button>
+                <Link to="/usuarios/servicios"> <button className="choose" style={{color:" #405C7B"}}><a style={{color:" #405C7B"}}><i className="fas fa-list-ul" style={{color:"#A4D8F4"}}></i>  Servicios</a></button></Link>
                 <div className="sep"></div>
+                </ul>
             </div> 
 
 <div id="slider">

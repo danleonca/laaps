@@ -44,6 +44,8 @@ const ProfileUser = ({getUser}) => {
         <i className="material-icons prefix">location_on</i>
         <input id="icon_prefix" type="text" className="validate"/>
         <label htmlFor="icon_prefix">Ubicación</label>
+
+        <Link to="/usuarios" >Siguiente</Link>
       </div>
 
         </div>
@@ -52,9 +54,7 @@ const ProfileUser = ({getUser}) => {
         </div>
         
         </div>
-             <Link to="/usuarios" >Siguiente</Link>
-             <Link data-testid="anyButton" to="/empleados/servicios" className="btn next-button"> Siguiente!!!! </Link>
-             <img className="lastEl" src={footer}/>
+            <img className="lastEl" src={footer}/>
      </div> 
     )
 }
