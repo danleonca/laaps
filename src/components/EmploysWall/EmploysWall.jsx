@@ -8,7 +8,7 @@ const EmploysWall = ({registerEm}) => {
             <div className="left-align"><img src={laapsMini}/></div>
             <div className="section">
            {registerEm.map(item=>(
-             <div> <div className="picture"> <img className="circle" src={item.image}/></div>
+             <div> <div> <img className="picture" src={item.image}/></div>
              
              <div className="name">Nombre</div>
              <div className="rectangule"></div>

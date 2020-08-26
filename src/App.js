@@ -8,6 +8,9 @@ import {
 import './App.css';
 import LogInEmploy from './components/LogInEmploy/LogInEmploy';
 import EmploysWall from './components/EmploysWall/EmploysWall';
+import LoginUser from './components/UserLogin/LoginUser';
+import ProfileUser from './components/profileUser/ProfileUser';
+
 
 function App() {
   const [employ, setEmploy] = useState([]);
@@ -32,6 +35,10 @@ function App() {
     employ={employ}
     setEmploy={setEmploy}
     setRegisterEm={setRegisterEm}/>
+  </Route>
+ 
+  <Route path="/">
+   <LoginUser/>
   </Route>
   
 </Switch>

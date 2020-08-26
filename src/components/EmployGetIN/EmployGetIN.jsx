@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { withRouter } from "react-router-dom";
 
-import { firebase } from "../../controllers/fireBase";
+import { firebase } from "../../controllers/firebase";
 
 import laapsMini from "../../images/laapsMini.svg";
 import flower from "../../images/flower.svg";

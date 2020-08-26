@@ -1,0 +1,100 @@
+.headerLaaps{
+    position: absolute;
+    width: 282px;
+    height: 546px;
+    left: 28px;
+    top: -220px;
+    }
+    .des{
+    position: absolute;
+    width: 112px;
+    height: 23px;
+    left: 85px;
+    top: -220px;
+
+    }
+    
+    .text{
+    width: 246px;
+    height: 15px;
+    left: 56px;
+    top: 358px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FBFFFB;
+    }
+    
+    .textInicia{
+    position: absolute;
+    left: 80px;
+    right: 22.5%;
+    bottom: 25.62%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    top: 270px;
+    color: #FFFFFF;
+    }
+    
+    .btnRegister{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 45px;
+    position: absolute;
+    width: 159px;
+    height: 38px;
+    left: 50px;
+    top: 220px;
+    background: #B0D9FF;
+    border-radius: 27.5px;
+    }
+    
+    .ondaBlue{
+    position: absolute;
+    width: 187.6px;
+    height: 131.93px;
+    left: -1px;
+    top: 319px;
+    }
+    .mini{
+    position: absolute;
+    width: 272.46px;
+    height: 171.94px;
+    left: 60px;
+    top: -40px;
+    }
+    .onda{
+        position: absolute;
+        width: 360px;
+        height: 450px;
+        left: 0px;
+        top: 210px;
+    }
+    
+    .logoWorkB{
+    position: absolute;
+    width: 150px;
+    left: 0px;
+    top:70px
+    }
+    
+    .social{
+        position:absolute;
+        top:180%;
+        display:flex;
+        justify-content:space-around;
+        flex-wrap:wrap;
+        width:40%;
+        left: 75px;
+    }
