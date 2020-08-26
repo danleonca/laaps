@@ -39,7 +39,6 @@ function App() {
   <Route path="/empleados">
   <EmploysWall
   registerEm={registerEm}/>
-  <MyLocation/>
   </Route>
   <Route path="/usuarios">
    
