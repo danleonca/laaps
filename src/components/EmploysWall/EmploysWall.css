@@ -82,13 +82,13 @@ color: #405C7B;
 .next-button{
     display: flex;
 flex-direction: row;
-padding: 10px 45px;
+
 
 position: absolute;
 left: 29.03%;
 right: 28.19%;
 top: 73.44%;
-bottom: 20.62%;
+
 
 background: #B0D9FF;
 border-radius: 27.5px;

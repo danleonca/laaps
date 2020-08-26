@@ -1,5 +1,6 @@
 import React from "react";
 import "./UserInf.css";
+import { Link } from "react-router-dom"
 
 
   const UserInf = () => {
@@ -20,7 +21,7 @@ import "./UserInf.css";
                 
                 <span>¡El sexto lavado va por nuestra cuenta!, revisa cuantos lavados tienes en inicio al lado de este icono</span>
            </ul>
-           <button>OK</button>
+           <Link to="/usuarios" > <button>OK</button></Link>
         </div>
 
         );

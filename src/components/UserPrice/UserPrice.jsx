@@ -3,6 +3,7 @@ import "./UserPrice.css";
 import sedan from "../../images/020-sedan.svg";
 import car1 from "../../images/051-car-1.svg";
 import car3 from "../../images/suv.svg";
+import { Link } from "react-router-dom"
 
   const UserPrice = () => {
   
@@ -28,7 +29,7 @@ import car3 from "../../images/suv.svg";
                 </div>
             </div>
             <p className="rec">Todos nuestros servicios son en seco con una fórmula eco-friendly.</p>
-           <button>OK</button>
+           <button>OK</button><Link to="/usuarios" ><button>Regresar</button></Link>
         </div>
 
         );

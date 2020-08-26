@@ -94,15 +94,17 @@ const EmployGetIN = ({history, employ, setEmploy, setRegisterEm}) => {
                 </div>
               </div>
 
-              <button
-                className="waves-effect center-aling in-button"
+              
+            </div>
+          </div>
+         
+        </div>
+        <button
+                className="waves-effect center-align in-button"
                 onClick={()=>addRegister(names, passwords)}
               >
                 Enviar
               </button>
-            </div>
-          </div>
-        </div>
       </div>
       <img className="img-flower" src={flower} />
     </div>

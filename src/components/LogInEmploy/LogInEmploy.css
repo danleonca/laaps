@@ -23,8 +23,7 @@
     flex-direction:column;
   }
   .logbtn{
-     position:absolute;
-    top:68%;
+     
     background: #B0D9FF;
     border-radius: 27.5px;
     border:0px;
@@ -38,8 +37,7 @@ font-size: 15px;
 line-height: 18px;
   }
   .logbtn2{
-    position:absolute;
-   top:80%;
+   
    background: #B0D9FF;
    border-radius: 27.5px;
    border:0px;

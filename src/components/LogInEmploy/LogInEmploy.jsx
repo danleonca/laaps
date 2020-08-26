@@ -22,11 +22,18 @@ const LogInEmploy = ({ employ, setEmploy, setRegisterEm }) => {
             <div className="mini">
               <img src={miniGreen} />
             </div>
-            <div className="btns">
-              <button className="logbtn" onClick={() => socioiN()}> Socio  </button>
-              <button className="logbtn2"> Administrador </button>
-            </div>
+           
           </div>
+          <div className="btns align-center">
+            <div>
+            <ul className="aling-center">
+              <button className="logbtn" onClick={() => socioiN()}> Socio  </button>
+              <br/>
+              <button className="logbtn2"> Administrador </button>
+              </ul>
+              </div>
+            </div>
+           
         </div>
         ) : (
           <div> 

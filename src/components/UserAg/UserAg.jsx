@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import "./UserAg.css";
+import { Link } from "react-router-dom"
 
 
   class UserAg extends Component {
@@ -90,7 +91,7 @@ import "./UserAg.css";
                 </div>
             </form> 
             <div className="btns">
-            <button >Cancel</button> <button >OK</button> 
+         <Link to="/usuarios" ><button >Cancel</button></Link>  <Link to="/usuarios" ><button >OK</button></Link> 
             
               
              </div>
