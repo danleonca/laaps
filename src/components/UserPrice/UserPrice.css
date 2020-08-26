@@ -1,0 +1,113 @@
+.cont{
+    left:5%;
+    position:absolute;
+    width:90%;
+    top:20%;
+    background: #FBFFFB;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+}
+a{
+    margin-top:5%;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 18px;
+/* or 100% */
+
+
+
+color: #405C7B;
+}
+
+
+button{
+   border:0;
+    background:white;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 18px;
+/* or 100% */
+
+
+
+color: #405C7B;
+
+opacity: 0.5;
+width:80px;
+
+height:60px;
+}
+
+.contCars{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+}
+.car{
+    width:30%;
+    margin:1%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color: #EAF1F1;
+
+border-radius: 12px;
+}
+.type{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #405C7B;
+}
+
+img{
+    width:80%;
+}
+
+.price{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+
+display: flex;
+align-items: center;
+text-align: center;
+margin-top:0%;
+color: #405C7B;
+
+}
+
+.rec{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #405C7B;
+}

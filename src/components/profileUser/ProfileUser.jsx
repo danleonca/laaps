@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import smallLaaps from '../../images/logo-small.svg'
 import footer from '../../images/hojas-verdes.svg'
 import {firebase} from '../../controllers/firebase'
@@ -51,7 +52,8 @@ const ProfileUser = ({getUser}) => {
         </div>
         
         </div>
-             <button className="btnNext">Siguiente</button>
+             <Link to="/usuarios" >Siguiente</Link>
+             <Link data-testid="anyButton" to="/empleados/servicios" className="btn next-button"> Siguiente!!!! </Link>
              <img className="lastEl" src={footer}/>
      </div> 
     )
