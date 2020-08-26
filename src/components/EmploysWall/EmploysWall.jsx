@@ -20,7 +20,7 @@ const EmploysWall = ({registerEm}) => {
              <div className="rectangule"></div>
              <div className="realName"> {item.name}</div>
 
-             <div className="name2"> <i className="material-icons ">location_on</i>{item.geolocation.latitude}</div>
+           <div className="name2"> <i className="material-icons ">location_on</i>Ubicación {item.geolocation.latitude}  {item.geolocation.longitude}</div>
           
            
              <Link data-testid="anyButton" to="/empleados/servicios" className="btn next-button"> Siguiente </Link>
