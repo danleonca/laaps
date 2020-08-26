@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { withRouter } from "react-router-dom";
 
-import { firebase } from "../../controllers/fireBase";
+import { firebase } from "../../controllers/firebase";
 
 import laapsMini from "../../images/laapsMini.svg";
 import flower from "../../images/flower.svg";
@@ -37,23 +37,23 @@ const EmployGetIN = ({history, employ, setEmploy, setRegisterEm}) => {
                 setRegisterEm(validatePass)
                 history.push("/empleados")
                 console.log("pasar a la siguiente")
-               // firebase
-               // .firestore()
-               // .collection("employsDiaryRegister")
-               // .add({
-               //   name: names,
-               //   password: passwords,
-               //   date: new Date(),
-               // })
-               // .then((docRef) => {
-               //   console.log("Document written with ID: ", docRef.id);
-               //   setName("");
-               //   setPasswords("");
-               //   history.push("/empleados")
-               // })
-               // .catch((error) => {
-               //   console.error("Error adding document: ", error);
-               // });
+              //  firebase
+              //  .firestore()
+              //  .collection("employsDiaryRegister")
+              //  .add({
+              //    name: names,
+              //    password: passwords,
+              //    date: new Date(),
+              //  })
+              //  .then((docRef) => {
+              //    console.log("Document written with ID: ", docRef.id);
+              //    setName("");
+              //    setPasswords("");
+              //    history.push("/empleados")
+              //  })
+              //  .catch((error) => {
+              //    console.error("Error adding document: ", error);
+              //  });
             }
         }else (console.log("nombre incorrecto"))
     
