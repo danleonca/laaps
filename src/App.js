@@ -10,6 +10,8 @@ import LogInEmploy from './components/LogInEmploy/LogInEmploy';
 import EmploysWall from './components/EmploysWall/EmploysWall';
 import UserApp from './components/UserApp/UserApp';
 import UserAg from './components/UserAg/UserAg';
+import UserInf from './components/UserInf/UserInf';
+import UserPrice from './components/UserPrice/UserPrice';
 
 function App() {
   const [employ, setEmploy] = useState([]);
@@ -41,6 +43,12 @@ function App() {
   </Route>
   <Route path="/userAg">
     <UserAg/>
+  </Route>
+  <Route path="/userinf">
+    <UserInf/>
+  </Route>
+  <Route path="/userprice">
+    <UserPrice/>
   </Route>
 </Switch>
 </Router>
