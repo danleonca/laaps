@@ -14,6 +14,10 @@ import ClientsLocation from './components/ClientsLocation/ClientsLocation';
 import SeeClientDirection from './components/SeeClientDirection/SeeClientDirection';
 import Locations from './components/Locations/Locations';
 import LoginUser from './components/UserLogin/LoginUser';
+import UserApp from './components/UserApp/UserApp';
+import UserAg from './components/UserAg/UserAg';
+import UserInf from './components/UserInf/UserInf';
+import UserPrice from './components/UserPrice/UserPrice';
 
 function App() {
   const [employ, setEmploy] = useState([]);
@@ -23,10 +27,19 @@ function App() {
     <div className="App">
     <Router>
   <Switch>
+  <Route path="/usuarios/servicio">
+      <UserInf/>
+    </Route>
+  <Route path="/usuarios/precios">
+      <UserPrice/>
+    </Route>
+  <Route path="/usuarios/agenda">
+      <UserAg/>
+    </Route>
     <Route path="/empleados/mapas">
       <Locations/>
     </Route>
-  
+
   <Route path="/empleados/servicios">
   <ClientsLocation
   registerEm={registerEm}
@@ -39,9 +52,10 @@ function App() {
   <Route path="/empleados">
   <EmploysWall
   registerEm={registerEm}/>
+ 
   </Route>
   <Route path="/usuarios">
-   
+  <UserApp/>
   </Route>
   <Route path="/LoginWorker">
     <LogInEmploy
@@ -53,7 +67,7 @@ function App() {
   <Route path="/">
    <LoginUser/>
   </Route>
-  
+
 </Switch>
 </Router>
     </div>

@@ -1,11 +1,9 @@
 import React, {useState} from 'react';
 import MapQuest from '../MapQuest/MapQuest'
 import FindLocation from '../FindLocation/FindLocation';
-
-
 import './MyLocation.css'
 
-const MyLocation = () => {
+const MyLocation = ({name}) => {
 const [lat, setLat]= useState("19.42847")
 const [long, setLong]=useState("-99.12766")
  let markers=[];
@@ -50,7 +48,8 @@ const addMarket=(lat, long, title, subtitle)=>{
 
 <FindLocation
 setCenter={serCenter}
-setMarket={addMarket}/>
+setMarket={addMarket}
+name={name}/>
 
         </div>
     )
