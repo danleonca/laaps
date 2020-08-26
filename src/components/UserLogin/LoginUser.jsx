@@ -31,7 +31,12 @@ function LoginUser() {
         firebase.auth().signInWithRedirect(providerGoogle)
         .then(result => console.log(`${result.user.email} ha iniciado sesión`))
         .catch(error => console.log(`Error: ${error.code}: ${error.message}`))
-
+    }
+    const authFacebook =()=>{
+        const providerFb = new firebase.auth.FacebookAuthProvider()
+        firebase.auth().signInWithRedirect(providerFb)
+        .then(result => console.log(`${result.user.email} ha iniciado sesión`))
+        .catch(error => console.log(`Error: ${error.code}: ${error.message}`))
     }
     return (
         <div>
@@ -51,7 +56,7 @@ function LoginUser() {
             <p className="textInicia">o inicia sesión</p>
             <div className="social">
             <img src={google} onClick={authGoogle}/>
-            <img src={fb} />
+            <img src={fb} onClick={authFacebook} />
             </div>
             </div>        
             <div className="ondaBlue">

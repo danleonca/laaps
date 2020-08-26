@@ -1,14 +1,25 @@
 import React from 'react'
 import smallLaaps from '../../images/logo-small.svg'
 import footer from '../../images/hojas-verdes.svg'
+import {firebase} from '../../controllers/firebase'
 import './profile.css'
 
 const ProfileUser = ({getUser}) => {
+    const logOut =()=>{
+        firebase.auth().signOut()
+        .then(()=>console.log("saliste"))
+        .catch(error=>console.log(`ha ocurrido un error: ${error.code}: ${error.message}`))
+
+
+    }
+    
     console.log(getUser.displayName)
     return (
         <div>
-
-        <div className="left-align"><img src={smallLaaps}/></div>
+        <div className="headerProfile">
+        <img src={smallLaaps}/>
+        <i className="material-icons" onClick={logOut}>exit_to_app</i>
+        </div>
         <div className="row" id="card">
         <div className="col s12 m6">
           <div className="card" id="card">
