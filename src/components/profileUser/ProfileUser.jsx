@@ -9,11 +9,7 @@ const ProfileUser = ({getUser}) => {
         firebase.auth().signOut()
         .then(()=>console.log("saliste"))
         .catch(error=>console.log(`ha ocurrido un error: ${error.code}: ${error.message}`))
-
-
     }
-    
-    console.log(getUser.displayName)
     return (
         <div>
         <div className="headerProfile">

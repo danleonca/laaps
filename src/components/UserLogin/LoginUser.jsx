@@ -21,7 +21,6 @@ function LoginUser() {
               return setUsers(user)
            }else{
               return setUsers(null)
-
            }
        })
     }, [users])
@@ -60,8 +59,10 @@ function LoginUser() {
             </div>
             </div>        
             <div className="ondaBlue">
+            <Link to="/LoginWorker">
             <img className="bg-image responsive-img slider fullscreen" src={ondita}/>
             <div className="logoWorkB"><img src={logoWorkB}/></div>
+            </Link>
             </div>
             </div>
             </div>
