@@ -21,7 +21,6 @@ function LoginUser() {
               return setUsers(user)
            }else{
               return setUsers(null)
-
            }
        })
     }, [users])

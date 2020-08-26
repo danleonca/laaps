@@ -11,11 +11,7 @@ const ProfileUser = ({getUser}) => {
         firebase.auth().signOut()
         .then(()=>console.log("saliste"))
         .catch(error=>console.log(`ha ocurrido un error: ${error.code}: ${error.message}`))
-
-
     }
-    
-    console.log(getUser.displayName)
     return (
         <div>
         <div className="headerProfile">
@@ -45,7 +41,7 @@ const ProfileUser = ({getUser}) => {
         <div className="input-field col s12">
       
 
-        <Link clasName="btn" to="/usuarios" >Siguiente</Link>
+        <Link className="btnNext" to="/usuarios" >Siguiente</Link>
       </div>
 
         </div>

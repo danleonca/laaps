@@ -13,15 +13,15 @@ import { Link } from "react-router-dom"
             </div>
             <div className="photo"></div>
             <div>
-            <p className="welcome"><n>Bienvenida, Fernanda.</n></p>
+            <p className="welcome">Bienvenida, Fernanda.</p>
             <br/>
-            <p className="ptns"><i className="fas fa-star" style={{color:"#FDD60C" , fontSize:"20px"}}></i>0 pts<i class="fas fa-car" style={{color:"#A4D8F4" , fontSize:"20px"}}></i>  0</p>
+            <p className="ptns"><i className="fas fa-star" style={{color:"#FDD60C" , fontSize:"20px"}}></i>0 pts<i className="fas fa-car" style={{color:"#A4D8F4" , fontSize:"20px"}}></i>  0</p>
              </div>
             
             
             <div className="btns">
                 <ul>
-            <Link to="/usuarios/agenda" ><button class="choose" ><a style={{color:" #405C7B"}}><i className="choose fas fa-calendar-alt" style={{color:"#A4D8F4"}}></i>  Agendar</a></button></Link>
+            <Link to="/usuarios/agenda" ><button className="choose" ><p style={{color:" #405C7B"}}><i className="choose fas fa-calendar-alt" style={{color:"#A4D8F4"}}></i>  Agendar</p></button></Link>
                 <div className="sep"></div>
                 <Link to="/usuarios/precios"> <button className="choose" style={{color:" #405C7B"}}><a style={{color:" #405C7B"}}><i className="fas fa-dollar-sign" style={{color:"#A4D8F4"}}></i>  Precios</a></button></Link>
                 <div className="sep"></div>
@@ -49,9 +49,9 @@ import { Link } from "react-router-dom"
    </div>
    
    <div id="bullets">
-      <label for="slide1"></label>
-      <label for="slide2"></label>
-      <label for="slide3"></label>
+      <label hmtlFor="slide1"></label>
+      <label hmtlFor="slide2"></label>
+      <label hmtlFor="slide3"></label>
    </div>
 </div>
 
