@@ -13,6 +13,9 @@ import Directions from './components/Directions/Directions';
 import ClientsLocation from './components/ClientsLocation/ClientsLocation';
 import SeeClientDirection from './components/SeeClientDirection/SeeClientDirection';
 import Locations from './components/Locations/Locations';
+import LoginUser from './components/UserLogin/LoginUser';
+import ProfileUser from './components/profileUser/ProfileUser';
+
 
 function App() {
   const [employ, setEmploy] = useState([]);
@@ -49,9 +52,11 @@ function App() {
     setEmploy={setEmploy}
     setRegisterEm={setRegisterEm}/>
   </Route>
-<Route path="/">
-<LoginUser/>
-</Route>
+ 
+  <Route path="/">
+   <LoginUser/>
+  </Route>
+  
 </Switch>
 </Router>
     </div>

@@ -1,0 +1,42 @@
+.headerProfile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.btnNext{
+    display:flex;
+    justify-content:center;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 45px;
+    position: absolute;
+    left: 29.03%;
+    right: 28.19%;
+    top: 73.44%;
+    bottom: 20.62%;
+    background: #B0D9FF;
+    border-radius: 27.5px;
+  }
+.lastEL{
+position: absolute;
+left: 90.62%;
+right: -34.52%;
+top: -50px;
+}
+
+.picture{
+position: absolute;
+left: -1px;
+top: -1px;
+bottom: 63.28%;
+width: 200px;
+height: 200px;
+border-radius: 100%;
+}
+  #card{
+    height:200px;
+    width:200px;
+     border-radius:50%;
+    
+  }
