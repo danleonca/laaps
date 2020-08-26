@@ -8,6 +8,8 @@ import {
 import './App.css';
 import LogInEmploy from './components/LogInEmploy/LogInEmploy';
 import EmploysWall from './components/EmploysWall/EmploysWall';
+import UserApp from './components/UserApp/UserApp';
+import UserAg from './components/UserAg/UserAg';
 
 function App() {
   const [employ, setEmploy] = useState([]);
@@ -15,6 +17,7 @@ function App() {
   return (
     <div className="App">
     <Router>
+    
   <Switch>
  
   <Route path="/administrador">
@@ -33,7 +36,12 @@ function App() {
     setEmploy={setEmploy}
     setRegisterEm={setRegisterEm}/>
   </Route>
-  
+  <Route path="/user">
+    <UserApp/>
+  </Route>
+  <Route path="/userAg">
+    <UserAg/>
+  </Route>
 </Switch>
 </Router>
     </div>
