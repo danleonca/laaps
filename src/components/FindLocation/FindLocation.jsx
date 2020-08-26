@@ -1,6 +1,7 @@
 import React from 'react'
+import { firebase } from "../../controllers/firebase";
 
-const FindLocation = ({setCenter, setMarket, }) => {
+const FindLocation = ({setCenter, setMarket, name }) => {
     const findMe=()=>{
     if(!navigator.geolocation){
         alert('el navegador no soporta geolocalización');
@@ -13,6 +14,32 @@ const FindLocation = ({setCenter, setMarket, }) => {
                 setCenter(latitude, longitude);
                 console.log(latitude, "lat")
                 console.log(longitude, "long")
+
+                  firebase
+                .firestore()
+                .collection("service")
+                .add({
+                  name: name,
+                  date: "",
+                  car:"",
+                  color:"",
+                  latitude:latitude,
+                  longitude:longitude,
+                  placa:"",
+                  precio:"",
+                  servicio:""
+
+
+                })
+                .then((docRef) => {
+                  console.log("Document written with ID: ", docRef.id);
+                
+                })
+                .catch((error) => {
+                  console.error("Error adding document: ", error);
+                });
+
+
 
             }
             if(setMarket){
@@ -29,7 +56,7 @@ const FindLocation = ({setCenter, setMarket, }) => {
     return (
         <div>
             <button
-            classname="btn"
+            className="btn findMe" style={{width:"100px"}}
             onClick={findMe}>Mi ubicación</button>
         </div>
     )
