@@ -17,7 +17,7 @@ const FindLocation = ({setCenter, setMarket, name }) => {
 
                   firebase
                 .firestore()
-                .collection("service")
+                .collection("users")
                 .add({
                   name: name,
                   date: "",
