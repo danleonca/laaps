@@ -71,8 +71,9 @@ const LogInEmploy = ({employ, setEmploy, setRegisterEm}) => {
 
 <div className="btns">
  <div className="mini"> <img src={miniGreen}></img></div>
-  <button className="logbtn" onClick={()=>socioiN()}> Socio  </button>
+ 
   <button className="logbtn2"> Administrador </button>
+  <button className="logbtn" onClick={()=>socioiN()}> Socio  </button>
 
 </div>
 </div> ) : (<div> <EmployGetIN

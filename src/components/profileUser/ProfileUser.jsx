@@ -1,8 +1,10 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import smallLaaps from '../../images/logo-small.svg'
 import footer from '../../images/hojas-verdes.svg'
 import {firebase} from '../../controllers/firebase'
 import './profile.css'
+import MyLocation from '../MyLocation/MyLocation'
 
 const ProfileUser = ({getUser}) => {
     const logOut =()=>{
@@ -38,11 +40,12 @@ const ProfileUser = ({getUser}) => {
         <div className="input-field col s12">
         <input defaultValue={getUser.displayName} id="first_name2" type="text" className="validate" />
         <label className="active" htmlFor="first_name2">Nombre</label>
+        <MyLocation name={getUser.displayName}/>
         </div>
         <div className="input-field col s12">
-        <i className="material-icons prefix">location_on</i>
-        <input id="icon_prefix" type="text" className="validate"/>
-        <label htmlFor="icon_prefix">Ubicación</label>
+      
+
+        <Link clasName="btn" to="/usuarios" >Siguiente</Link>
       </div>
 
         </div>
@@ -51,8 +54,7 @@ const ProfileUser = ({getUser}) => {
         </div>
         
         </div>
-             <button className="btnNext">Siguiente</button>
-             <img className="lastEl" src={footer}/>
+            <img className="lastEl" src={footer}/>
      </div> 
     )
 }

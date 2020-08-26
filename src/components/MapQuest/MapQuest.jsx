@@ -35,7 +35,7 @@ const[direction, setDirection]=useState([])
     return (
         <div id="map" style={{width, height}}>
             <p>Cargando Mapa..</p>
-            <div id="map" style={{width: "100%", height: "530px"}}></div>
+            <div id="map" style={{width: "75%", height: "530px"}}></div>
 
    
         </div>
